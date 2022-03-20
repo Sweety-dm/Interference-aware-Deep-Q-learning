@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://ztt@219.223.186.211:22/home/ztt/anaconda3/envs/mementoenvGpu/bin/python3.7" />
+      </list>
+    </list>
+  </component>
+</project>

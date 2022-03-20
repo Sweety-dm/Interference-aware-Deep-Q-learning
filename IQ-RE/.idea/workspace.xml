@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="549cfe54-5cf1-4ac5-ad70-c43c0b526b52" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CDaKD_Rainbow$state_encoder.coverage" NAME="state_encoder Coverage Results" MODIFIED="1624431761108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RE_representation_viz" />
+    <SUITE FILE_PATH="coverage/CDaKD_RE$model_computation_viz__1_.coverage" NAME="model_computation_viz Coverage Results" MODIFIED="1633266371419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/computation_cost" />
+    <SUITE FILE_PATH="coverage/CDaKD_RE$training_performance_plot.coverage" NAME="training_performance_plot Coverage Results" MODIFIED="1647695535527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDaKD_Rainbow$re_representation_viz.coverage" NAME="re_representation_viz Coverage Results" MODIFIED="1624434876793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RE_representation_viz" />
+    <SUITE FILE_PATH="coverage/CDaKD_RE$model_computation_viz.coverage" NAME="model_computation_viz Coverage Results" MODIFIED="1647585695999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/computation_cost" />
+    <SUITE FILE_PATH="coverage/rainbow_master$interference_plot.coverage" NAME="interference_plot Coverage Results" MODIFIED="1606462754565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rainbow" />
+    <SUITE FILE_PATH="coverage/CDaKD_RE$caculate_hs_and_md_ratio.coverage" NAME="caculate_hs_and_md_ratio Coverage Results" MODIFIED="1638779749735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDaKD_RE$CDaKD_dqn_agent.coverage" NAME="CDaKD_dqn_agent Coverage Results" MODIFIED="1631519667397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDaKD_RE$plot_compare.coverage" NAME="plot_compare Coverage Results" MODIFIED="1636965872084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RE_TE_compare" />
+    <SUITE FILE_PATH="coverage/CDaKD_Rainbow$training_performance_plot.coverage" NAME="training_performance_plot Coverage Results" MODIFIED="1627896202620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDaKD_Rainbow$caculate_hs_and_md_ratio.coverage" NAME="caculate_hs_and_md_ratio Coverage Results" MODIFIED="1627374886486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDaKD_Rainbow$model_computation_viz.coverage" NAME="model_computation_viz Coverage Results" MODIFIED="1622457564842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDaKD_Rainbow$model_computation_viz__1_.coverage" NAME="model_computation_viz (1) Coverage Results" MODIFIED="1627922747457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/computation_cost" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="275">
+                <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>random_encoder</find>
+      <find>_build_image_encoder</find>
+      <find>DQNAgent</find>
+      <find>dqn_agent</find>
+      <find>SRNN_rainbow</find>
+      <find>circular_replay_buffer</find>
+      <find>network_model</find>
+      <find>RainbowAgent</find>
+      <find>context_decision</find>
+      <find>NATURE_DQN_OBSERVATION_SHAPE</find>
+      <find>observation_shape</find>
+      <find>_record_observation</find>
+      <find>self._encoder_outputs</find>
+      <find>self.state</find>
+      <find>SRNN</find>
+      <find>font_legend</find>
+      <find>huber_loss</find>
+      <find>replay_chosen_others_q</find>
+      <find>_build_target_q_op</find>
+      <find>_build_train_op</find>
+      <find>_train_op</find>
+      <find>_build_target_distribution</find>
+      <find>method_ori</find>
+      <find>_replay_target_net_outputs_</find>
+      <find>_replay_net_outputs</find>
+      <find>_store_transition</find>
+      <find>CD</find>
+      <find>CDaKD</find>
+      <find>CDA</find>
+      <find>CDAKD</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rainbow/run_experiment_from_checkpoint.py" />
+        <option value="$PROJECT_DIR$/rainbow/configs/dqn.gin" />
+        <option value="$PROJECT_DIR$/rainbow/configs/dqn_Acrobot" />
+        <option value="$PROJECT_DIR$/rainbow/configs/dqn_Acrobot.gin" />
+        <option value="$PROJECT_DIR$/rainbow/configs/rainbow_CartPole.gin" />
+        <option value="$PROJECT_DIR$/rainbow/custom_run_experiment.py" />
+        <option value="$PROJECT_DIR$/rainbow/configs/rainbow.gin" />
+        <option value="$PROJECT_DIR$/rainbow/custom_rainbow_agent.py" />
+        <option value="$PROJECT_DIR$/rainbow/custom_dqn_agent.py" />
+        <option value="$PROJECT_DIR$/rainbow/configs/original_dqn_CartPole" />
+        <option value="$PROJECT_DIR$/rainbow/interference_plot.py" />
+        <option value="$PROJECT_DIR$/rainbow/configs/dqn_CartPole.gin" />
+        <option value="$PROJECT_DIR$/rainbow/train_original_agent.py" />
+        <option value="$PROJECT_DIR$/rainbow/configs/original_dqn_CartPole.gin" />
+        <option value="$PROJECT_DIR$/model_computation_viz.py" />
+        <option value="$PROJECT_DIR$/RE_representation_viz/generate_image.py" />
+        <option value="$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/agents/dqn/dqn_agent.py" />
+        <option value="$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/discrete_domains/run_experiment.py" />
+        <option value="$PROJECT_DIR$/RE_representation_viz/state_encoder.py" />
+        <option value="$PROJECT_DIR$/RE_representation_viz/re_representation_viz.py" />
+        <option value="$PROJECT_DIR$/configs/SRNN_dqn.gin" />
+        <option value="$PROJECT_DIR$/configs/CDaKD_rainbow.gin" />
+        <option value="$PROJECT_DIR$/dsom_dqn_agent.py" />
+        <option value="$PROJECT_DIR$/caculate_hs_and_md_ratio.py" />
+        <option value="$PROJECT_DIR$/configs/CDaKD_dqn.gin" />
+        <option value="$PROJECT_DIR$/computation_cost/model_computation_viz.py" />
+        <option value="$PROJECT_DIR$/RE_TE_compare/plot_compare.py" />
+        <option value="$PROJECT_DIR$/train_agent.py" />
+        <option value="$PROJECT_DIR$/SRNN_dqn_agent.py" />
+        <option value="$PROJECT_DIR$/SRNN_rainbow_agent.py" />
+        <option value="$PROJECT_DIR$/CDaKD_rainbow_agent.py" />
+        <option value="$PROJECT_DIR$/CDaKD_dqn_agent.py" />
+        <option value="$PROJECT_DIR$/prioritized_replay_buffer.py" />
+        <option value="$PROJECT_DIR$/replay_buffer.py" />
+        <option value="$PROJECT_DIR$/random_encoder.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/configs/IQ_dqn.gin" />
+        <option value="$PROJECT_DIR$/custom_run_experiment.py" />
+        <option value="$PROJECT_DIR$/IQ_dqn_agent.py" />
+        <option value="$PROJECT_DIR$/IQ_rainbow_agent.py" />
+        <option value="$PROJECT_DIR$/network_model.py" />
+        <option value="$PROJECT_DIR$/training_performance_plot.py" />
+        <option value="$PROJECT_DIR$/configs/rainbow.gin" />
+        <option value="$PROJECT_DIR$/configs/dqn.gin" />
+        <option value="$PROJECT_DIR$/configs/IQ_rainbow.gin" />
+        <option value="$PROJECT_DIR$/configs/SRNN_rainbow.gin" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="681" />
+    <option name="width" value="1230" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IQ-RE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IQ-RE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IQ-RE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IQ-RE" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ztt\Desktop\research\CDaKD_Rainbow\computation_cost" />
+      <recent name="C:\Users\ztt\Desktop\research\rainbow-master\rainbow" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.training_performance_plot">
+    <configuration name="CDaKD_dqn_agent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rainbow-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CDaKD_dqn_agent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="rainbow-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DISPLAY" value="localhost:10.0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://ztt@219.223.186.211:22/home/ztt/anaconda3/envs/mementoenvGpu/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="caculate_hs_and_md_ratio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rainbow-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caculate_hs_and_md_ratio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_computation_viz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rainbow-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DISPLAY" value="localhost:11.0" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\envs\tensorflow\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/computation_cost" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/computation_cost/model_computation_viz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rainbow-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DISPLAY" value="localhost:10.0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://ztt@219.223.186.211:22/home/ztt/anaconda3/envs/mementoenvGpu/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RE_TE_compare" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RE_TE_compare/plot_compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training_performance_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rainbow-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DISPLAY" value="localhost:11.0" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_performance_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.caculate_hs_and_md_ratio" />
+      <item itemvalue="Python.CDaKD_dqn_agent" />
+      <item itemvalue="Python.model_computation_viz" />
+      <item itemvalue="Python.training_performance_plot" />
+      <item itemvalue="Python.plot_compare" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.training_performance_plot" />
+        <item itemvalue="Python.model_computation_viz" />
+        <item itemvalue="Python.caculate_hs_and_md_ratio" />
+        <item itemvalue="Python.plot_compare" />
+        <item itemvalue="Python.CDaKD_dqn_agent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="549cfe54-5cf1-4ac5-ad70-c43c0b526b52" name="Default Changelist" comment="" />
+      <created>1605621059290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605621059290</updated>
+      <workItem from="1605621060844" duration="149202000" />
+      <workItem from="1606401726528" duration="16867000" />
+      <workItem from="1619406835619" duration="122601000" />
+      <workItem from="1620195021837" duration="76618000" />
+      <workItem from="1621476607521" duration="57175000" />
+      <workItem from="1622600056128" duration="152730000" />
+      <workItem from="1624695306688" duration="43179000" />
+      <workItem from="1625447777175" duration="40751000" />
+      <workItem from="1628046919359" duration="598000" />
+      <workItem from="1629797356726" duration="313000" />
+      <workItem from="1629797773231" duration="11096000" />
+      <workItem from="1632200634548" duration="13078000" />
+      <workItem from="1634009724363" duration="3847000" />
+      <workItem from="1634013995043" duration="272000" />
+      <workItem from="1634014303735" duration="4307000" />
+      <workItem from="1634025196160" duration="2310000" />
+      <workItem from="1635726331588" duration="68969000" />
+      <workItem from="1636430011298" duration="39427000" />
+      <workItem from="1637403667771" duration="35351000" />
+      <workItem from="1638148803801" duration="17805000" />
+      <workItem from="1639719436409" duration="11003000" />
+      <workItem from="1639892474562" duration="1091000" />
+      <workItem from="1639894140784" duration="1123000" />
+      <workItem from="1640771812065" duration="22852000" />
+      <workItem from="1646142371486" duration="80000" />
+      <workItem from="1647415029158" duration="117000" />
+      <workItem from="1647584730055" duration="1564000" />
+      <workItem from="1647693761654" duration="9193000" />
+      <workItem from="1647764010614" duration="2220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="905739000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15069968" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32996634" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.4994618" weight="0.17283951" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.45679012" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.19865319" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994618" weight="0.65319866" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.35578004" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.1926803" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.24381055" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32992464" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16307858" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32996634" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.4994618" weight="0.19865319" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19416386" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.19865319" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994618" weight="0.35465768" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.18967453" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.24434876" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.24381055" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CLSRL_for_Atari/train_original_agent.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/gin/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="1724" column="51" selection-start-line="1724" selection-start-column="51" selection-end-line="1724" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_original_agent.py" />
+    <entry file="file://$PROJECT_DIR$/custom_agent.py" />
+    <entry file="file://$PROJECT_DIR$/rainbow_interference/custom_run_experiment.py" />
+    <entry file="file://$PROJECT_DIR$/rainbow_interference/custom_rainbow_agent.py" />
+    <entry file="file://$PROJECT_DIR$/rainbow_interference/configs/original_dqn_CartPole.gin" />
+    <entry file="file://$PROJECT_DIR$/rainbow_interference/custom_dqn_agent.py" />
+    <entry file="file://$PROJECT_DIR$/rainbow_interference/configs/dqn_CartPole.gin" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/replay_memory/prioritized_replay_buffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="356" column="37" lean-forward="true" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/numpy/polynomial/_polybase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="783" column="57" lean-forward="true" selection-start-line="778" selection-start-column="11" selection-end-line="783" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDaKD_dqn_agent - 副本.py" />
+    <entry file="file://$PROJECT_DIR$/caculate_highest_score_and_maximum_deterioration_ratio.py" />
+    <entry file="file://$PROJECT_DIR$/CDaKD_dqn_agent_.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1784758564/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44383">
+          <caret line="832" column="4" selection-start-line="832" selection-start-column="4" selection-end-line="832" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RE_representation_viz/state_encoder.py" />
+    <entry file="file://$PROJECT_DIR$/RE_representation_viz/re_representation_viz.py" />
+    <entry file="file://$PROJECT_DIR$/RE_representation_viz/generate_image.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/replay_memory/circular_replay_buffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="692" column="34" selection-start-line="692" selection-start-column="34" selection-end-line="692" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#601#972#1" />
+            <element signature="e#973#1011#0" expanded="true" />
+            <element signature="e#1956#2983#0" />
+            <element signature="e#3026#27859#0" />
+            <element signature="e#3026#3671#1" />
+            <element signature="e#4186#5469#1" />
+            <element signature="e#7832#8102#0" />
+            <element signature="e#8898#9189#0" />
+            <element signature="e#9258#10031#1" />
+            <element signature="e#11364#11747#0" />
+            <element signature="e#11790#12677#0" />
+            <element signature="e#12705#12769#0" />
+            <element signature="e#12796#12879#0" />
+            <element signature="e#12905#13025#0" />
+            <element signature="e#13085#13568#1" />
+            <element signature="e#14681#14794#0" />
+            <element signature="e#14840#15868#0" />
+            <element signature="e#15920#16617#0" />
+            <element signature="e#16667#16974#1" />
+            <element signature="e#18237#22098#0" />
+            <element signature="e#18237#19470#1" />
+            <element signature="e#22158#22434#1" />
+            <element signature="e#23652#23725#0" />
+            <element signature="e#23776#24378#0" />
+            <element signature="e#24436#26318#0" />
+            <element signature="e#26366#27859#0" />
+            <element signature="e#28020#36843#0" />
+            <element signature="e#28020#28428#1" />
+            <element signature="e#29023#30545#1" />
+            <element signature="e#31742#32386#1" />
+            <element signature="e#32504#32765#1" />
+            <element signature="e#33546#33756#1" />
+            <element signature="e#33914#35184#0" />
+            <element signature="e#33914#34364#1" />
+            <element signature="e#35258#35454#1" />
+            <element signature="e#36175#36461#1" />
+            <element signature="e#36564#36843#0" />
+            <element signature="e#36564#36798#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/discrete_domains/iteration_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding>
+            <element signature="e#805#1255#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/CDaKD_rainbow.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/discrete_domains/run_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3878">
+          <caret line="287" column="55" lean-forward="true" selection-start-line="287" selection-start-column="55" selection-end-line="287" selection-end-column="55" />
+          <folding>
+            <element signature="e#671#709#0" expanded="true" />
+            <element signature="e#1300#1704#0" />
+            <element signature="e#1837#3140#0" />
+            <element signature="e#3972#4569#1" />
+            <element signature="e#5002#6265#1" />
+            <element signature="e#11899#12520#1" />
+            <element signature="e#13387#13717#1" />
+            <element signature="e#14457#14796#1" />
+            <element signature="e#16620#16993#1" />
+            <element signature="e#19427#20084#0" />
+            <element signature="e#20133#20935#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dsom_dqn_agent.py" />
+    <entry file="file://$PROJECT_DIR$/configs/CDaKD_dqn.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/agents/dqn/dqn_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="407" column="6" selection-start-line="407" selection-start-column="6" selection-end-line="407" selection-end-column="6" />
+          <folding>
+            <element signature="e#647#685#0" expanded="true" />
+            <element signature="e#1341#2260#0" />
+            <element signature="e#3654#6222#1" />
+            <element signature="e#9627#11011#0" />
+            <element signature="e#9627#10185#1" />
+            <element signature="e#11064#11589#0" />
+            <element signature="e#11064#11280#1" />
+            <element signature="e#13116#13876#0" />
+            <element signature="e#13922#14294#0" />
+            <element signature="e#14339#14716#1" />
+            <element signature="e#15042#15375#0" />
+            <element signature="e#15409#15670#1" />
+            <element signature="e#16231#16555#1" />
+            <element signature="e#17333#17900#0" />
+            <element signature="e#17984#18562#1" />
+            <element signature="e#18814#19439#1" />
+            <element signature="e#20035#20661#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/discrete_domains/atari_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="336" column="15" selection-start-line="336" selection-start-column="9" selection-end-line="336" selection-end-column="15" />
+          <folding>
+            <element signature="e#1645#1683#0" expanded="true" />
+            <element signature="e#2600#4009#0" />
+            <element signature="e#2600#3509#1" />
+            <element signature="e#4072#4832#0" />
+            <element signature="e#4912#6411#0" />
+            <element signature="e#6550#8660#0" />
+            <element signature="e#8785#9619#0" />
+            <element signature="e#9664#11752#0" />
+            <element signature="e#11008#11537#1" />
+            <element signature="e#11944#12276#1" />
+            <element signature="e#13551#13970#1" />
+            <element signature="e#14471#18129#0" />
+            <element signature="e#18186#18832#1" />
+            <element signature="e#18947#19451#1" />
+            <element signature="e#20598#20634#0" />
+            <element signature="e#20678#20714#0" />
+            <element signature="e#20754#20786#0" />
+            <element signature="e#20811#20842#0" />
+            <element signature="e#20867#21212#0" />
+            <element signature="e#21244#21755#0" />
+            <element signature="e#21244#21714#1" />
+            <element signature="e#21787#22547#1" />
+            <element signature="e#23560#23909#0" />
+            <element signature="e#23945#24653#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/agents/rainbow/rainbow_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#1274#1312#0" expanded="true" />
+            <element signature="e#2739#5313#1" />
+            <element signature="e#6965#7260#1" />
+            <element signature="e#7928#8572#1" />
+            <element signature="e#12773#13881#0" />
+            <element signature="e#13993#21234#0" />
+            <element signature="e#13993#15676#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caculate_hs_and_md_ratio.py" />
+    <entry file="file://$PROJECT_DIR$/computation_cost/model_computation_viz.py" />
+    <entry file="file://$PROJECT_DIR$/SRNN_rainbow_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#57#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDaKD_rainbow_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#658#696#0" expanded="true" />
+            <element signature="e#2454#3754#0" />
+            <element signature="e#3795#4111#1" />
+            <element signature="e#4326#5181#0" />
+            <element signature="e#5234#6160#0" />
+            <element signature="e#5234#5529#1" />
+            <element signature="e#6206#8240#0" />
+            <element signature="e#8275#12432#0" />
+            <element signature="e#10928#12110#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDaKD_dqn_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RE_TE_compare/plot_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_run_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQ_dqn_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#52#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQ_rainbow_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+          <folding>
+            <element signature="e#56#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="e#595#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prioritized_replay_buffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="57" column="58" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_buffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="298" lean-forward="true" selection-start-line="298" selection-end-line="298" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#5578#5854#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRNN_dqn_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#68#219#1" />
+            <element signature="e#220#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_performance_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="106" column="43" lean-forward="true" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/dqn.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/SRNN_dqn.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/SRNN_rainbow.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/rainbow.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/IQ_dqn.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/IQ_rainbow.gin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

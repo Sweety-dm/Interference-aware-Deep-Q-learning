@@ -1,0 +1,38 @@
+# Hyperparameters follow Hessel et al. (2018), except for sticky_actions,
+# which was False (not using sticky actions) in the original paper.
+
+import dopamine.discrete_domains.atari_lib
+import dopamine.discrete_domains.run_experiment
+import dopamine.replay_memory.prioritized_replay_buffer
+import gin.tf.external_configurables
+
+import custom_run_experiment
+import SRNN_rainbow_agent
+
+SRNNRainbowAgent.num_atoms = 51
+SRNNRainbowAgent.vmax = 10.
+SRNNRainbowAgent.gamma = 0.99
+SRNNRainbowAgent.update_horizon = 3
+SRNNRainbowAgent.min_replay_history = 20000  # agent steps
+SRNNRainbowAgent.update_period = 4
+SRNNRainbowAgent.target_update_period = 8000  # agent steps
+SRNNRainbowAgent.epsilon_train = 0.01
+SRNNRainbowAgent.epsilon_decay_period = 250000  # agent steps
+SRNNRainbowAgent.replay_scheme = 'prioritized'
+SRNNRainbowAgent.tf_device = '/gpu:0'  # use '/cpu:*' for non-GPU version
+SRNNRainbowAgent.optimizer = @tf.train.AdamOptimizer()
+
+# Note these parameters are different from C51's.
+tf.train.AdamOptimizer.learning_rate = 0.0000625
+tf.train.AdamOptimizer.epsilon = 0.00015
+
+atari_lib.create_atari_environment.game_name = 'FishingDerby'
+# Sticky actions with probability 0.25, as suggested by (Machado et al., 2017).
+atari_lib.create_atari_environment.sticky_actions = True
+custom_run_experiment.create_agent.agent_name = 'SRNN_rainbow'
+Runner.num_iterations = 200
+Runner.training_steps = 50000  # agent steps
+Runner.max_steps_per_episode = 27000  # agent steps
+
+WrappedPrioritizedReplayBuffer.replay_capacity = 1000000
+WrappedPrioritizedReplayBuffer.batch_size = 32
