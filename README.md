@@ -2,11 +2,6 @@
 This is the code for the paper
 `IQ: Interference-aware Deep Q-learning`
 by Tiantian Zhang, Xueqian Wang, Bin Liang, Xiu Li, and Bo Yuan (TNNLS 2022). 
-The code was adapted from the Google's RL research framework 
-[`Dopamine`](https://github.com/google/dopamine).
-
-## Running the Code
-All of the commands below are run from the parent `IQ-RE` directory.
 
 ### Setup
 Start a virtualenv with these commands:

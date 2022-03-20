@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="549cfe54-5cf1-4ac5-ad70-c43c0b526b52" name="Default Changelist" comment="" />
+    <list default="true" id="549cfe54-5cf1-4ac5-ad70-c43c0b526b52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +40,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,6 +82,9 @@
       <find>CDA</find>
       <find>CDAKD</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -152,6 +144,7 @@
     <option name="width" value="1230" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -399,11 +392,12 @@
       <workItem from="1647584730055" duration="1564000" />
       <workItem from="1647693761654" duration="9193000" />
       <workItem from="1647764010614" duration="2220000" />
+      <workItem from="1647781126268" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="905739000" />
+    <option name="totallyTimeSpent" value="905882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,9 +410,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15069968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2421959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -429,7 +422,7 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32996634" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.4994618" weight="0.17283951" />
+      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.4994618" weight="0.17249155" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.45679012" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.19865319" />
@@ -572,13 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/CDaKD_rainbow.gin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/CDaKD_rainbow.gin" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/discrete_domains/run_experiment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3878">
@@ -600,13 +587,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dsom_dqn_agent.py" />
-    <entry file="file://$PROJECT_DIR$/configs/CDaKD_dqn.gin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/CDaKD_dqn.gin" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-1784758564/1637523799/dopamine/agents/dqn/dqn_agent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91">
@@ -694,30 +675,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CDaKD_rainbow_agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#658#696#0" expanded="true" />
-            <element signature="e#2454#3754#0" />
-            <element signature="e#3795#4111#1" />
-            <element signature="e#4326#5181#0" />
-            <element signature="e#5234#6160#0" />
-            <element signature="e#5234#5529#1" />
-            <element signature="e#6206#8240#0" />
-            <element signature="e#8275#12432#0" />
-            <element signature="e#10928#12110#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CDaKD_dqn_agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CDaKD_rainbow_agent.py" />
+    <entry file="file://$PROJECT_DIR$/CDaKD_dqn_agent.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -877,8 +836,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <first_editor relative-caret-position="450">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>
