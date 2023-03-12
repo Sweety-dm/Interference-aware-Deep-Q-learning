@@ -1,4 +1,5 @@
 absl-py
+gym
 atari_py
 dopamine-rl
 gin-config >= 0.1
