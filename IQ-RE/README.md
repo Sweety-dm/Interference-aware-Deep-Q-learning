@@ -14,7 +14,7 @@ Train the agent by executing,
 ```
 python -m train_agent
   --gin_files=configs/IQ_rainbow.gin \
-  --base_dir=results/Breakout/RBS=1000000/IQ_Rainbow_1
+  --base_dir=experiments/Breakout/RBS=1000000/IQ_Rainbow_1
 ```
 
 ### Plotting Learning Curves
